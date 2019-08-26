@@ -35,7 +35,6 @@ type CUhostptr uintptr
 type CUresult C.CUresult
 type CUdevice_attribute C.CUdevice_attribute
 
-// enum cudaError_enum
 const (
 	CUDA_SUCCESS                              = C.CUDA_SUCCESS
 	CUDA_ERROR_INVALID_VALUE                  = C.CUDA_ERROR_INVALID_VALUE
@@ -113,7 +112,6 @@ const (
 	CUDA_ERROR_UNKNOWN                        = C.CUDA_ERROR_UNKNOWN
 )
 
-// enum CUdevice_attribute_enum
 const (
 	CU_DEVICE_ATTRIBUTE_MAX_THREADS_PER_BLOCK                        = C.CU_DEVICE_ATTRIBUTE_MAX_THREADS_PER_BLOCK
 	CU_DEVICE_ATTRIBUTE_MAX_BLOCK_DIM_X                              = C.CU_DEVICE_ATTRIBUTE_MAX_BLOCK_DIM_X
@@ -224,7 +222,6 @@ const (
 	CU_DEVICE_ATTRIBUTE_MAX                                          = C.CU_DEVICE_ATTRIBUTE_MAX
 )
 
-// enum CUstream_flags_enum
 const (
 	CU_STREAM_DEFAULT      = C.CU_STREAM_DEFAULT
 	CU_STREAM_NON_BLOCKING = C.CU_STREAM_NON_BLOCKING

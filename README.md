@@ -9,10 +9,13 @@ Go binding for Cuda Driver API.
 
 support cuda version > 10.0
 
+API detail reference is [NVIDIA CUDA Driver API Manual](https://docs.nvidia.com/cuda/cuda-driver-api/)
+
 # Installation
 
 ```
 go get github.com/kuroko1t/gocuda
+export PATH=/usr/local/cuda/bin:$PATH
 ```
 
 # API Reference
